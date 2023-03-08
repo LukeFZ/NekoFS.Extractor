@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.1.1" />
+    <PackageReference Include="K4os.Compression.LZ4" Version="1.3.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Native\" />
+    <Folder Include="Coded\" />
+    <Folder Include="Memory\" />
+    <Folder Include="Overlay\" />
+  </ItemGroup>
+
+</Project>

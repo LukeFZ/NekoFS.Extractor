@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33027.239
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNekoFS", "LibNekoFS\LibNekoFS.csproj", "{1B89E33B-6B2B-43F3-BB2A-33F09D00E14E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NekoFS.Extractor", "NekoFS.Extractor\NekoFS.Extractor.csproj", "{F8F2A551-93CE-4F46-AC8E-23E54D43A912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B89E33B-6B2B-43F3-BB2A-33F09D00E14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B89E33B-6B2B-43F3-BB2A-33F09D00E14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B89E33B-6B2B-43F3-BB2A-33F09D00E14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B89E33B-6B2B-43F3-BB2A-33F09D00E14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F2A551-93CE-4F46-AC8E-23E54D43A912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F2A551-93CE-4F46-AC8E-23E54D43A912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F2A551-93CE-4F46-AC8E-23E54D43A912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F2A551-93CE-4F46-AC8E-23E54D43A912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76E20472-F022-4A35-AD9F-E450A8A957CD}
+	EndGlobalSection
+EndGlobal
